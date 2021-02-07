@@ -1,0 +1,115 @@
+body{
+    margin:0;
+}
+
+.title{
+    text-align: center;
+    font-size:500%;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image:url(titleimg1.jpg);
+    background-size:cover;
+    padding:200px;
+}
+.selection{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size:200%;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:0;
+    height:85px;
+}
+.selectionbutton{
+    background-color:gray;
+    transition:all .4s linear;
+    padding:20px;
+}
+.selectionbutton:hover{
+    background-color:rgba(128, 128, 128, 0.459);
+    padding:20px;
+    transition:all .4s linear;
+}
+
+div {
+animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.Introduction{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    font-size:200%;
+    text-align:center;
+}
+
+.Career{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    font-size:200%;
+    text-align:center;
+}
+
+.Blog{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    font-size:200%;
+    text-align:center;
+}
+
+.Gallery{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    font-size:200%;
+    text-align:center;
+}
+
+.menu{
+    padding-top:30px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+.info{
+    padding:30px;
+    text-align:left;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.menubutton{
+    font-size:30px;
+    transition:all .2s linear;
+}
+
+.menubutton:hover{
+    font-size:33px;
+    transition:all .2s linear;
+}
+
+.Underbar{
+    text-align:center;
+    border:10px;
+    padding:10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: gray;
+}
+
+
+#Aboutme{
+    display:grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#FaceWrite{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+
+
+
+
